@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{bccc04bd-74d5-4320-b672-5b1e2527ee76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\GameObject">
+      <UniqueIdentifier>{d9ad2132-ebb3-4432-95fa-5fcfa6230083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Interface">
+      <UniqueIdentifier>{213926b3-d079-499d-a5e0-070067a9d5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Core">
+      <UniqueIdentifier>{00b9384f-fa57-4974-9786-4e3315177b39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\GameObject">
+      <UniqueIdentifier>{cab58dc7-73a5-49dd-ba77-dffa163b547b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Interface">
+      <UniqueIdentifier>{3f932061-0787-4322-8d8f-d67246f2c16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Enum">
+      <UniqueIdentifier>{5db287e9-df8b-4c8e-99b0-b9963d790ccc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BackDecoPattern.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CircusScene.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="EndTrampoline.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FlamePot.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameRing.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameRingRenderer.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MiterMark.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimRender.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Colider.cpp">
+      <Filter>소스 파일\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>소스 파일\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramCore.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="winmain.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="MiddleObstacle.cpp">
+      <Filter>소스 파일\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackDecoPattern.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CircusObjects.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CircusScene.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EndTrampoline.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FlamePot.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameRing.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameRingRenderer.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="MiterMark.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimRender.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>헤더 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>헤더 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreHeader.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IMGEnum.h">
+      <Filter>헤더 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumCircusState.h">
+      <Filter>헤더 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseEnum.h">
+      <Filter>헤더 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramCore.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="WndBase.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumColTag.h">
+      <Filter>헤더 파일\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="MiddleObstacle.h">
+      <Filter>헤더 파일\GameObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
